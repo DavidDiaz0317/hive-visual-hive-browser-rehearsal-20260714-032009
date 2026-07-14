@@ -33,7 +33,7 @@ export default defineConfig({
     }
   ],
   webServer: {
-    command: "npm run preview",
+    command: "npm run dev",
     cwd: repoRoot,
     url: "http://127.0.0.1:4317",
     reuseExistingServer: true,
